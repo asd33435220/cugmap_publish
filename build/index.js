@@ -12,5 +12,5 @@ const main = ctx => {
 
 app.use(static(path.join(__dirname)))
 app.use(main)
-
+console.log('开始监听3000端口');
 app.listen(3000)
